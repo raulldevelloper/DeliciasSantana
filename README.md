@@ -1,28 +1,12 @@
 # Delícias Santana
 
-Order management system developed in Java.
-
-## Features
-
-- Customer registration
-- Order registration
-- Quantity control
-- Total value calculation
-- Preparation time calculation
+The first version was a snack bar system built in pure Java; the second, more updated version was a restaurant system!
 
 ## Technologies
 
 - Java
-- Object-Oriented Programming
-- Git/GitHub
-
-## Upcoming versions
-
+- System Spring
 - MySQL
-- Login system
-- Spring Boot
-- React
-
 ## Author
 
 Raul Dias
