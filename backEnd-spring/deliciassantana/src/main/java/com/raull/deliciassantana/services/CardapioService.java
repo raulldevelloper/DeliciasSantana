@@ -30,6 +30,7 @@ public class CardapioService {
 
         cardapio.setTipoDoPrato(dto.getTipoDoPrato());
         cardapio.setDescricao(dto.getDescricao());
+        cardapio.setPreco(dto.getPreco());
 
         return cardapioRepository.save(cardapio);
     }
@@ -40,6 +41,7 @@ public class CardapioService {
 
         cardapio.setTipoDoPrato(dto.getTipoDoPrato());
         cardapio.setDescricao(dto.getDescricao());
+        cardapio.setPreco(dto.getPreco());
 
         return cardapioRepository.save(cardapio);
     }

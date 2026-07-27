@@ -1,5 +1,6 @@
 package com.raull.deliciassantana.entitys;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,6 +21,7 @@ public class ItemPedidoEntity {
 
     @ManyToOne
     @JoinColumn(name = "pedido_id")
+    @JsonIgnore
     private PedidoEntity pedido;
 
     @ManyToOne

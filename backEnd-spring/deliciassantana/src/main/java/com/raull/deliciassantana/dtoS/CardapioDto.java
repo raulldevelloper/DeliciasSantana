@@ -12,4 +12,5 @@ import lombok.Setter;
 public class CardapioDto {
     private String tipoDoPrato;
     private String descricao;
+    private float preco;
 }
