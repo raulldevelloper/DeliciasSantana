@@ -1,12 +1,23 @@
-# Delícias Santana
+# 🍔 Delícias Santana
 
-The first version was a snack bar system built in pure Java; the second, more updated version was a restaurant system!
+API REST desenvolvida com Java, Spring Boot e MySQL para gerenciamento de um restaurante.
 
-## Technologies
+## 🚀 Funcionalidades
+
+- CRUD de clientes
+- CRUD de mesas
+- CRUD de cardápio
+- CRUD de pedidos
+- Relacionamento entre entidades com JPA
+- Validação de dados
+- Spring Security
+- API REST
+
+## 🛠 Tecnologias
 
 - Java
-- System Spring
+- Spring Boot
+- Spring Data JPA
+- Spring Security
 - MySQL
-## Author
-
-Raul Dias
+- Maven
